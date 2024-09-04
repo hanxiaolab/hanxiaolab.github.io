@@ -1,0 +1,458 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hanxiao's Group-Homepage</title>
+    <title>Hanxiao's Group-Research</title>
+    <meta content="Hanxiao Liu" name="keywords">
+    <meta content="hanxiao's Group" name="description">
+    <meta name="author" content="hanxiao liu">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="static/media/hanxiaologo.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="/static/lib/Semantic-UI/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/lib/lunbo/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/static/lib/jqueryWflbt/css/style.css">
+
+
+    <style type="text/css">
+
+        .hidden.menu {
+            display: none;
+        }
+
+        .masthead.segment {
+            min-height: 700px;
+            padding: 1em 0em;
+        }
+
+        .masthead .logo.item img {
+            margin-right: 1em;
+        }
+
+        .masthead .ui.menu .ui.button {
+            margin-left: 0.5em;
+        }
+
+        .masthead h1.ui.header {
+            margin-top: 3em;
+            margin-bottom: 0em;
+            font-size: 4em;
+            font-weight: normal;
+        }
+
+        .masthead h2 {
+            font-size: 1.7em;
+            font-weight: normal;
+        }
+
+        .ui.vertical.stripe {
+            padding: 8em 0em;
+        }
+
+        .ui.vertical.stripe h3 {
+            font-size: 2em;
+        }
+
+        .ui.vertical.stripe .button + h3,
+        .ui.vertical.stripe p + h3 {
+            margin-top: 3em;
+        }
+
+        .ui.vertical.stripe .floated.image {
+            clear: both;
+        }
+
+        .ui.vertical.stripe p {
+            font-size: 1.33em;
+        }
+
+        .ui.vertical.stripe .horizontal.divider {
+            margin: 1.6em 0em;
+        }
+
+        .quote.stripe.segment {
+            padding: 0em;
+        }
+
+        .quote.stripe.segment .grid .column {
+            padding-top: 5em;
+            padding-bottom: 5em;
+        }
+
+        .footer.segment {
+            padding: 5em 0em;
+        }
+
+        .secondary.pointing.menu .toc.item {
+            display: none;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .ui.fixed.menu {
+                display: none !important;
+            }
+
+            .secondary.pointing.menu .item,
+            .secondary.pointing.menu .menu {
+                display: none;
+            }
+
+            .secondary.pointing.menu .toc.item {
+                display: block;
+            }
+
+            .masthead.segment {
+                min-height: 350px;
+            }
+
+            .masthead h1.ui.header {
+                font-size: 2em;
+                margin-top: 1.5em;
+            }
+
+            .masthead h2 {
+                margin-top: 0.5em;
+                font-size: 1.5em;
+            }
+
+            .web-footer {
+                display: none;
+            }
+
+            .phone-footer {
+                display: block;
+            }
+        }
+
+        @media screen and (max-device-width: 400px) {
+
+        }
+
+        /*news*/
+        .news-title-a {
+            color: black;
+            font-weight: 500;
+            font-size: 18px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            word-break: break-all;
+        }
+
+        .news-title-a:hover {
+            color: #0d71bb;
+            cursor: pointer;
+        }
+
+        /*轮播*/
+        .ctrl .prev, .ctrl .next {
+            top: -170px;
+        }
+
+        .ctrl {
+            bottom: 15px;
+        }
+
+        .ctrl .libs {
+
+        }
+
+        .language-item {
+            font-family: "Microsoft YaHei";
+            color: #e0e0e0;
+            font-size: 10px;
+            cursor: pointer;
+            margin-right: 20px;
+            padding-bottom: 5px;
+        }
+
+        .language-active {
+            font-weight: 800;
+            color: #0d71bb;
+
+            border-bottom: 2px solid white;
+        }
+
+    </style>
+
+    <script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?f3db933ce076033d78ec330464e09862";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+</head>
+
+
+<body class="pushable">
+
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+    <a class="item" href="index.html">主页</a>
+    <a class="item" href="research.html">研究方向</a>
+    <a class="item" href="researchers.html">团队</a>
+    <a class="item" href="publications.html">研究成果</a>
+    <a class="item" href="news.html">新闻</a>
+</div>
+
+
+
+<!-- Page Contents -->
+<div class="pusher">
+
+
+<div class="ui inverted vertical center aligned segment" style="background-color: #000000;">
+
+        <div class="ui container">
+
+            <div class="ui large secondary inverted menu" style="border-width: 0px;float: left;margin:0px;">
+                <a href="/"><img src="/static/media/hanxiaologo.jpg" width="160" height="48" style="margin-right: 20px"></a>
+            </div>
+            <div class="ui large secondary inverted pointing menu" style="border-width: 0px;margin:0px;">
+                <a class="toc item">  <i class="sidebar icon"></i></a>
+                <a class="item" href="index.html">主页</a>
+                <a class="item" href="research.html">研究方向</a>
+                <a class="item" href="researchers.html">团队</a>
+                <a class="item" href="publications.html">研究成果</a>
+                <a class="item" href="news.html">新闻</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui container">
+        <h4 class="ui horizontal header divider" style="padding: 30px;font-size: 1.3rem;">
+
+            <a href="/" style="color:grey!important; ">Welcome to Hanxiao's Group</a>
+        </h4>
+    </div>
+    <div class="content" style="margin-bottom:20px ">
+        <div class="a-content">
+            <div class="carousel-content">
+                <ul class="carousel">
+                    <li style="cursor: pointer;"><img src="/static/media/2429162.png"></li>
+                    <li style="cursor: pointer;"><img src="/static/media/5454545.jpg"></li>
+                    <li style="cursor: pointer;"><img src="/static/media/dingding2024.png"></li>
+                </ul>
+                <ul class="img-index"></ul>
+                <div class="carousel-prev"><img src="/static/media/left.png"></div>
+                <div class="carousel-next"><img src="/static/media/right.png"></div>
+            </div>
+        </div>
+    </div>
+    <!--新闻-->
+    <div class="ui vertical stripe segment center centered aligned"
+         style="padding-top: 10px;padding-bottom: 100px;background-color: #eaeaee;">
+        <div class="ui container">
+            <h4 class="ui horizontal header divider" style="font-size: 1.3rem">
+                <a href="#" style="color: grey">新闻</a>
+            </h4>
+                <div style="margin: 20px 0;text-align: center"><p onclick="location='news.html'"
+                                                                  class="news-title-a"
+                                                                  style="text-decoration: none;">
+                    恭喜雷奕博、徐俊杰、苏钰林三位同学获得上海大学2024年数学建模竞赛一等奖</p>
+                    -2024年8月</div>
+                <div style="margin: 20px 0;text-align: center"><p onclick="location='news.html'"
+                                                                  class="news-title-a"
+                                                                  style="text-decoration: none;">
+                    恭喜雷奕博、徐俊杰、苏钰林三位同学获得二零二四年“钉钉杯”大学生大数据挑战赛初赛本科组优秀奖</p>
+                    -2024年8月</div>
+                <div style="margin: 20px 0;text-align: center"><p onclick="location='news.html'"
+                                                                  class="news-title-a"
+                                                                  style="text-decoration: none;">
+                    恭喜邹佳颖发表期刊IEEE Control Systems Letters</p>
+                    -2024年5月4日</div>
+                <div style="margin: 20px 0;text-align: center"><p onclick="location='news.html'"
+                                                                  class="news-title-a"
+                                                                  style="text-decoration: none;">
+                    恭喜雷奕博、刘诚智、周泽厚三位同学获得美国大学生数学建模大赛H奖</p>
+                    -2024年5月4日</div>
+                <div style="margin: 20px 0;text-align: center"><p onclick="location='news.html'"
+                                                                  class="news-title-a"
+                                                                  style="text-decoration: none;">
+                    恭喜邹佳颖发表中科院顶级期刊TCAS-II</p>
+                    -2023年10月13日</div>
+            <div class="center" style="position:absolute;left:50%;margin-left:-75px;">
+                <a class="ui large primary button" href="news.html">查看更多<i
+                        class="right chevron icon"></i> </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui vertical stripe segment" style="padding: 4em 0em">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="eight wide column">
+                    <h3 class="ui header">刘晗笑</h3>
+                    <p style="font-size: 16px;line-height: 30px;">
+                        刘晗笑，博士，上海大学人工智能研究院讲师，硕士生导师，获上海市“海外高层次人才（青年）”计划和上海市青年科技英才扬帆计划。2021年获得新加坡南洋理工大学和瑞典皇家理工学院联合博士学位。主持国家自然科学基金青年科学基金项目、上海市启明星项目（扬帆专项）、上海大学青年英才启航计划，参与国家自然科学基金重点项目、上海市重点项目等多项科研项目。以第一作者身份在顶级国际期刊和会议上发表近20篇论文，包括控制领域顶级期刊IEEE Transactions on Automatic Control和Automatica等，并参与撰写领域专业书籍《Safety, Security, and Privacy for Cyber-physical Systems》，授权与受理国家发明专利近10项。长期担任IEEE TAC, Automatica, IEEE TCNS, IEEE TII等多个国际期刊的审稿人。
+                    </p>
+                </div>
+                <div class="six wide right floated column">
+                    <img src="/static/media/hanxiao.png" class="ui large bordered rounded image"
+                         style="max-height: 400px; max-width: 240px;">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+<div class="ui inverted vertical footer segment" style="background-color: #000000">
+
+    <div class="ui container web-footer">
+        <div class="ui stackable inverted divided equal height stackable grid">
+            <div class="three wide column">
+                <img src="/static/media/hanxiaologo.jpg" width="300" height="90">
+            </div>
+            <div class="three wide column" style="margin-left:150px">
+                <h4 class="ui inverted header" style="height: 30px;">网站板块</h4>
+                <div class="ui inverted list">
+                    <a href="research.html" class="item">研究方向</a>
+                    <a href="publications.html" class="item">研究成果</a>
+                    <a href="news.html" class="item">新闻</a>
+                </div>
+            </div>
+            <div class="four wide column" style="margin-left:16px">
+                <h4 class="ui inverted header" style="height: 30px;">刘晗笑</h4>
+                <p><a style="color: white" href="https://hanxiaoliu.github.io/">https://hanxiaoliu.github.io/</a></p>
+                <p><a style="color: white"><i class="fa fa-envelope-o"></i>hanxiaoliu@shu.edu.cn</a></p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+
+
+<!-- 全局js -->
+<script src="/static/js/jquery-3.3.1.min.js"></script>
+<script src="/static/lib/Semantic-UI/semantic.min.js"></script>
+<script src="/static/lib/lunbo/js/myscroll.js"></script>
+<script src="/static/lib/Semantic-UI/components/visibility.js"></script>
+<script src="/static/lib/Semantic-UI/components/sidebar.js"></script>
+<script src="/static/lib/Semantic-UI/components/transition.js"></script>
+<script src="/static/lib/jqueryWflbt/scripts/carousel.js"></script>
+<script src="/static/js/main.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        // fix menu when passed
+        $('.masthead').visibility({
+            once: false,
+            onBottomPassed: function () {
+                $('.fixed.menu').transition('fade in');
+            },
+            onBottomPassedReverse: function () {
+                $('.fixed.menu').transition('fade out');
+            }
+        });
+
+        // create sidebar and attach to menu open
+        $('.ui.sidebar').sidebar('attach events', '.toc.item');
+
+
+        //轮播图宽度
+        function lunboWidth() {
+            var screenWidth = document.documentElement.scrollWidth;
+            var lunboElems = $('.lunbo-Img');
+            for (var i = 0; i < 5; i++) {
+                var lunboElem = lunboElems.eq(i);
+                lunboElem.attr('width', screenWidth)
+            }
+        }
+
+
+        lunboWidth();
+        $(window).resize(function () {
+            lunboWidth();
+        })
+
+
+//    新的轮播
+        $(".carousel-content").carousel({
+            carousel: ".carousel",//轮播图容器
+            indexContainer: ".img-index",//下标容器
+            prev: ".carousel-prev",//左按钮
+            next: ".carousel-next",//右按钮
+            timing: 3000,//自动播放间隔
+            animateTime: 700,//动画时间
+            autoPlay: true,//是否自动播放 true/false
+            direction: "left",//滚动方向 right/left
+        });
+
+        $(".carousel-content").hover(function () {
+            $(".carousel-prev,.carousel-next").fadeIn(300);
+        }, function () {
+            $(".carousel-prev,.carousel-next").fadeOut(300);
+        });
+
+        $(".carousel-prev").hover(function () {
+            $(this).find("img").attr("src", "/static/media/left.png");
+        }, function () {
+            $(this).find("img").attr("src", "/static/media/left.png");
+        });
+        $(".carousel-next").hover(function () {
+            $(this).find("img").attr("src", "/static/media/right.png");
+        }, function () {
+            $(this).find("img").attr("src", "/static/media/right.png");
+        });
+
+
+    });
+    $(function () {
+
+        // 调用
+        $('#banner1').myscroll({
+            picEl: $('#move'), //图片父级，不传默认为banner内第1个div
+            ctrlEl: $('#ctrl'), //控制条父级，包括小圆点和左右箭头，不传默认为banner内第2个div
+            libs: true, //是否创建底部小圆点，true || false,不传默认true
+            arrows: true, //是否创建左右箭头，true || false,不传默认true
+            autoPlay: true, //是否自动播放，true || false,不传默认true
+            time: 2000, //自动播放间隔时间，true || false,不传默认2000
+            speed: 600, //图片切换速度，不传默认400
+            effect: 'left' //轮播的改变方式 top||left||fade，不传默认left
+        });
+
+
+        // footer 变化
+        var window_width = $(window).width();
+        console.log(window_width)
+        if (window_width <= 400) {
+            $('.web-footer').css('display', 'none');
+            $('.phone-footer').css('display', 'block');
+        } else {
+            $('.web-footer').css('display', 'block');
+            $('.phone-footer').css('display', 'none');
+        }
+        // 屏幕宽度变化 footer变化
+        $(window).resize(function () {
+            var window_width = $(window).width();
+            if (window_width < 400) {
+                $('.web-footer').css('display', 'none');
+                $('.phone-footer').css('display', 'block');
+            } else {
+                $('.web-footer').css('display', 'block');
+                $('.phone-footer').css('display', 'none');
+            }
+        })
+
+
+    })
+
+
+</script>
+
+</body>
+
+</html>
