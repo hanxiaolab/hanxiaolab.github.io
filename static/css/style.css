@@ -1,0 +1,186 @@
+.M-box, .M-box1, .M-box2, .M-box3, .M-box4 {
+    position: relative;
+    text-align: center;
+    zoom: 1;
+}
+
+.M-box:before, .M-box:after, .M-box1:before, .M-box1:after, .M-box2:before, .M-box2:after, .M-box3:before, .M-box3:after, .M-box4:before, .M-box4:after {
+    content: "";
+    display: table;
+}
+
+.M-box:after, .M-box1:after, .M-box2:after, .M-box3:after, .M-box4:after {
+    clear: both;
+    overflow: hidden;
+}
+
+.M-box span, .M-box1 span, .M-box2 span, .M-box3 span, .M-box4 span {
+    float: left;
+    margin: 0 5px;
+    width: 20px;
+    height: 38px;
+    line-height: 38px;
+    color: #bdbdbd;
+    font-size: 10px;
+}
+
+.M-box .active, .M-box1 .active, .M-box2 .active, .M-box3 .active, .M-box4 .active {
+    float: left;
+    margin: 0 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #0d71bb;
+    color: #fff;
+    font-size: 10px;
+    border: 1px solid #0d71bb;
+}
+
+.M-box a, .M-box1 a, .M-box2 a, .M-box3 a, .M-box4 a {
+    float: left;
+    margin: 0 3px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    color: #bdbdbd;
+    font-size: 10px;
+}
+
+.M-box a:hover, .M-box1 a:hover, .M-box2 a:hover, .M-box3 a:hover, .M-box4 a:hover {
+    color: #fff;
+    background: #0d71bb;
+}
+
+.M-box .next, .M-box .prev, .M-box1 .next, .M-box1 .prev {
+    font-family: "Simsun";
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+.hidden.menu {
+    display: none;
+}
+
+.masthead.segment {
+    min-height: 700px;
+    padding: 1em 0em;
+}
+
+.masthead .logo.item img {
+    margin-right: 1em;
+}
+
+.masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+    margin-top: 3em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+.ui.vertical.stripe {
+    padding: 8em 0em;
+}
+
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+    margin-top: 3em;
+}
+
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+    padding: 0em;
+}
+
+.quote.stripe.segment .grid .column {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.footer.segment {
+    padding: 5em 0em;
+}
+
+.secondary.pointing.menu .toc.item {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .ui.fixed.menu {
+        display: none !important;
+    }
+
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+        display: none;
+    }
+
+    .secondary.pointing.menu .toc.item {
+        display: block;
+    }
+
+    .masthead.segment {
+        min-height: 350px;
+    }
+
+    .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+
+    .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+}
+
+
+.news-container{
+    background-color: #f5f5f5;
+    margin: 10px 0px;
+}
+.news-container:hover{
+    background-color: #e0e0e0;
+}
+.news-img{
+    width: 200px;
+}
+.ui.button.margin-b-5{
+    margin-bottom: 5px;
+}
+.margin-b-20{
+    margin-bottom: 20px;
+}
+.margin-5{
+    margin: 5px;
+}
+
+.group-active{
+    background-color: #0d71bb;
+}
